@@ -1,0 +1,33 @@
+.glassmorphism {
+    background: rgba(255, 255, 255, 0.2); /* Fundo translúcido */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra */
+    backdrop-filter: blur(10px); /* Efeito de desfoque no fundo */
+    padding: 20px; /* Espaçamento interno */
+    margin: 50px auto; /* Margem superior e centralização */
+    max-width: 400px; /* Largura máxima */
+  }
+
+  .transparent-input {
+    background: transparent; /* Fundo transparente */
+    border: none; /* Sem borda */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6); /* Borda inferior transparente */
+    color: white; /* Cor do texto */
+    width: 100%; /* Largura total do contêiner pai */
+    padding: 10px 5px; /* Espaçamento interno */
+    outline: none; /* Remove o contorno ao focar */
+  }
+  .transparent-input::placeholder {
+    color: rgba(255, 255, 255, 0.6); /* Cor do placeholder */
+  }
+
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand span {
+    margin-left: 0.5rem;
+  }
+
+  
